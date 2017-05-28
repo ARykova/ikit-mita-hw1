@@ -23,7 +23,7 @@ namespace Model
             }
         }
 
-        private int _age;
+        private int _age { get; }
 
         private int Health { get; set; }
 
